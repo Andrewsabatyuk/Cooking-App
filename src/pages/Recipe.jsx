@@ -60,7 +60,10 @@ const ButtonWrapper = styled.div`
 const DetailWrapper = styled.div`
   margin-top: 10rem;
   margin-bottom: 7rem;
-  display: flex;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
 
     .active{
       background: linear-gradient(35deg, #2C3E50 , #000000);
@@ -104,3 +107,9 @@ const TextWrapper = styled.div`
     width: 100%;
 `;
 export default Recipe
+
+// позиціонування css
+// відносні величини em rem vh vw
+// псевдокласи
+// ref
+// local and global state

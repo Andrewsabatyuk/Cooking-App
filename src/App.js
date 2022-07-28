@@ -3,14 +3,14 @@ import Search from "./components/Search";
 import Pages from "./pages/Pages";
 import styled from 'styled-components';
 import {Link} from 'react-router-dom';
-import {GiKnifeFork} from 'react-icons/gi';
+import {MdFastfood} from 'react-icons/md';
 
 function App() {
   return (
     <div className="App">
       <Nav>
-        <GiKnifeFork/>
-        <Logo to={'/'}>Little Deliciousss</Logo>
+        <MdFastfood/>
+        <Logo to={'/'}>Cuisine of the world</Logo>
       </Nav>
       <Search/>
       <Category />
@@ -23,7 +23,7 @@ const Logo = styled(Link)`
   text-decoration: none;
   color: black;
   font-size: 1.5em;
-  font-family: 'Lobster Two', cursive;
+  font-family: 'Josefin Sans', sans-serif;
 `;
 
 const Nav = styled.div`

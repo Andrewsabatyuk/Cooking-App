@@ -64,10 +64,12 @@ const DetailWrapper = styled.div`
   flex-direction:column;
   align-items: center;
   justify-content: space-around;
+  ${'' /* border-radius: 20px; */}
 
     .active{
       background: linear-gradient(35deg, #2C3E50 , #000000);
       color: white;
+      border-radius: 40px;
     }
     a{
       text-decoration: none;
